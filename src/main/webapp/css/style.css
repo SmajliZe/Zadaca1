@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+
+
+}
+body{
+    background-color:  #09412b;
+}
+#registration-container{
+    margin: 50px auto;
+    width: 50%;
+    border-radius: 20px;
+    box-shadow: 2px 2px 5px rgb(128, 128, 128);
+    background-color:  rgb(128, 128, 128);
+}
+#register-more-button{
+    padding-bottom: 15px;
+}
+#login-container{
+    margin: 50px auto;
+    width: 35%;
+    border-radius: 15px;
+    box-shadow: 2px 2px 5px rgb(128, 128, 128);
+
+}
+#login-more-buttons{
+    gap: 10px;
+    padding-bottom: 15px;
+}
+form label{
+    font-weight: 500;
+    font-size: 1.2rem;
+}
+form input{
+    font-size: 1.2rem;
+    border: none;
+    background: none;
+    border-bottom: 1px solid black;
+}
+form input:focus{
+    border-bottom: 1px solid #09412b;
+    outline: none !important;
+}
+#order-confirmed-container{
+    margin: 50px auto;
+    width: 45%;
+    border-radius: 15px;
+    box-shadow: 2px 2px 5px rgb(128, 128, 128);
+}
+#order-confirmed-button{
+    padding-bottom: 15px;
+}
